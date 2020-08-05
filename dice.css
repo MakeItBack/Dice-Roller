@@ -1,4 +1,7 @@
-h1			{color:			deeppink;}
-.btn		{background-color: deeppink;}
-.lead		{color: deeppink;}
+.deep-pink		{color:				deeppink;}
+	
+.btn			{background-color: 	deeppink;}
 
+.dice			{max-width: 		150px;}
+
+.card			{border:			none;}
