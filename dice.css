@@ -2,6 +2,9 @@
 	
 .btn			{background-color: 	deeppink;}
 
-.dice			{max-width: 		150px;}
+.dice			{
+				max-height: 		30vh;
+				max-width:			20%;
+				}
 
 .card			{border:			none;}
