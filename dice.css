@@ -1,7 +1,17 @@
-.deep-pink		{color:				deeppink;}
+.deep-pink		{color:				rebeccapurple;}
 	
-.btn			{background-color: 	deeppink;}
+.btn			{background-color: 	rebeccapurple;
+				color:				white;
+				}
 
-.dice			{max-width: 		150px;}
+.dice			{max-width: 		150px;
+				border-radius: 		30px;
+				border: 			10px solid rgba(255, 255, 255, .7);   		
+				}
 
-.card			{border:			none;}
+.card			{border:			none;
+				background: 		none;
+				}
+
+body			{background-image: url("img/catground01.jpg");
+				}
