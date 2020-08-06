@@ -44,10 +44,9 @@ $(".btn").click(()=>{
 	})
 });
 
-// UPGRADES
+// UPGRADES - ideas
 	// animation for roll
-	// dice start on page - maybe with question mark
-	// or - can't press button without dice
-	// Background toggler
+	// Can't press roll button without selecting number of dice first
+	// Background image toggler
 	// change to 10 sided dice
 	// Re-factor!!
