@@ -1,5 +1,5 @@
 # Dice-Roller
-Generates random dice rolls for 1-3 dice
+**Generates random dice rolls for 1-3 dice**
 
 For my daughter to use in her maths class during remote learning, during Covid 19 lockdown
 
