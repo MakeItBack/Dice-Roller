@@ -31,18 +31,48 @@ $("#inlineRadio3").change(()=>{
 // generate a random number from 1-6
 // display the correct dice images for the numbers generated
 
+// $(".btn").click(()=>{
+// 	imgIds.forEach((image)=>{
+// 		let roll = Math.floor(Math.random()*6)+1;
+// 		console.log(image +" rolled "+ roll);
+// 		if (roll === 6) {$(image).attr('src', 'img/six2.png')}
+// 		else if (roll === 5) {$(image).attr('src', 'img/five2.png')}
+// 		else if (roll === 4) {$(image).attr('src', 'img/four2.png')}
+// 		else if (roll === 3) {$(image).attr('src', 'img/three2.png')}
+// 		else if (roll === 2) {$(image).attr('src', 'img/two2.png')}
+// 		else {$(image).attr('src', 'img/one2.png')};
+// 	})
+// });
+
+// Alternative syntax - the SWITCH STATEMENT
+
 $(".btn").click(()=>{
 	imgIds.forEach((image)=>{
 		let roll = Math.floor(Math.random()*6)+1;
 		console.log(image +" rolled "+ roll);
-		if (roll === 6) {$(image).attr('src', 'img/six2.png')}
-		else if (roll === 5) {$(image).attr('src', 'img/five2.png')}
-		else if (roll === 4) {$(image).attr('src', 'img/four2.png')}
-		else if (roll === 3) {$(image).attr('src', 'img/three2.png')}
-		else if (roll === 2) {$(image).attr('src', 'img/two2.png')}
-		else {$(image).attr('src', 'img/one2.png')};
+		switch(roll){
+			case 6:
+				$(image).attr('src', 'img/six2.png');
+				break;
+			case 5:
+				$(image).attr('src', 'img/five2.png');
+				break;
+			case 4:
+				$(image).attr('src', 'img/four2.png');
+				break;
+			case 3:
+				$(image).attr('src', 'img/three2.png');
+				break;
+			case 2:
+				$(image).attr('src', 'img/two2.png');
+				break;
+			case 1:
+				$(image).attr('src', 'img/one2.png');
+				break;
+		};	
 	})
 });
+
 
 // UPGRADES - ideas
 	// animation for roll
