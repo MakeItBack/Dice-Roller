@@ -1,35 +1,34 @@
-// display the correct number of dice - adjust number of cards
-// How to do it -
-// 	1) Put a listener on each radio and adjust the inner HTML of the main container for whichever one is clicked to display the right number of die
+// Display the correct dice to match the radio selected
 
+// 	- Define the HTML for each of the 3 dice images - each has a unique id
 const addDice1 = '<div class="card"><img src="img/new.png" id="d1" class="card-img mx-auto dice"></div>';
 const addDice2 = '<div class="card"><img src="img/new.png" id="d2" class="card-img mx-auto dice"></div>';
 const addDice3 = '<div class="card"><img src="img/new.png" id="d3" class="card-img mx-auto dice"></div>';
 
+// Create an array of the image IDs so we can loop through each one individually
 let imgIds = ["#d1","#d2","#d3"];
 
+// 	- Put a listener on each radio to detect when changed and if it is 'on' i.e checked
+// 	- Adjust the inner HTML of the card deck to add the correct dice (cards) to match the radio selected - 1, 1&2 or all 3 
 $("#inlineRadio1").change(()=>{
 	if ($(this).prop({checked: true})) {
 	$(".card-deck").html(addDice1);
-	numDie = 1;
 }});
 
 $("#inlineRadio2").change(()=>{
 	if ($(this).prop({checked: true})) {
 	$(".card-deck").html(addDice1+addDice2);
-	numDie = 2;
 }});
 
 $("#inlineRadio3").change(()=>{
 	if ($(this).prop({checked: true})) {
 	$(".card-deck").html(addDice1+addDice2+addDice3);
-	numDie = 3;
 }});
 
 // listen for a click of the button
 // Loop through the dice images and for each one:
 // generate a random number from 1-6
-// display the correct dice images for the numbers generated
+// display the correct dice images for the number generated
 
 // $(".btn").click(()=>{
 // 	imgIds.forEach((image)=>{
