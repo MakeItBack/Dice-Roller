@@ -49,6 +49,7 @@ $(".btn").click(()=>{
 	imgIds.forEach((image)=>{
 		let roll = Math.floor(Math.random()*6)+1;
 		console.log(image +" rolled "+ roll);
+		$(image).addClass('diceRoll');
 		switch(roll){
 			case 6:
 				$(image).attr('src', 'img/six2.png');
@@ -70,12 +71,15 @@ $(".btn").click(()=>{
 				break;
 		};	
 	})
+	// set timer to allow animation to run before removing animation class
+	window.setTimeout(()=>{$('img').removeClass('diceRoll')}, 550); 
 });
 
 
+
 // UPGRADES - ideas
-	// animation for roll
+	// animation for roll - done
 	// Can't press roll button without selecting number of dice first
 	// Background image toggler
-	// change to 10 sided dice
+	// option to change to 10 sided dice
 	// Re-factor!!

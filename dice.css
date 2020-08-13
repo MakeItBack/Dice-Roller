@@ -1,4 +1,4 @@
-.deep-pink		{color:				rebeccapurple;}
+.heading-col	{color:				rebeccapurple;}
 	
 .btn			{background-color: 	rebeccapurple;
 				color:				white;
@@ -15,3 +15,15 @@
 
 body			{background-image: url("img/catground01.jpg");
 				}
+
+.diceRoll		{animation-name: roll;
+    			animation-duration: 0.5s;
+    			animation-iteration-count: 1;
+    			animation-fill-mode: forwards;
+    			animation-timing-function: ease-out;
+				}
+
+ @keyframes roll {
+    
+	    100% 	{transform: rotate(2turn);}
+ 				}
