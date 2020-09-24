@@ -4,7 +4,8 @@
 				color:				white;
 				}
 
-.dice			{max-width: 		150px;
+.dice			{
+				max-width: 			150px;
 				border-radius: 		30px;
 				border: 			10px solid rgba(255, 255, 255, .7);   		
 				}
@@ -27,3 +28,25 @@ body			{background-image: url("img/catground01.jpg");
     
 	    100% 	{transform: rotate(2turn);}
  				}
+
+@media (max-width: 600px) {
+							h1			{
+										font-size: 40px !important;
+										}
+
+							#NumDice	{
+										display: block !important;
+										}
+
+							.dice 		{
+										max-width: 			100px;
+										border-radius: 		20px;
+										border: 			6px solid rgba(255, 255, 255, .7);
+										}
+
+							.card 		{
+										max-width: 30%;
+										display: inline-block;
+										margin: 0 1.5% !important;
+										}
+							}
