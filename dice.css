@@ -36,6 +36,8 @@ body			{background-image: url("img/catground01.jpg");
 
 							#NumDice	{
 										display: block !important;
+										text-align: left;
+										margin: 0 !important;
 										}
 
 							.dice 		{
@@ -49,4 +51,24 @@ body			{background-image: url("img/catground01.jpg");
 										display: inline-block;
 										margin: 0 1.5% !important;
 										}
+
+							.custom-switch {
+										float: right;
+										margin-right: 5% !important;	
+										}
+
+							.form-check	{
+										float: left !important;
+										}
+
+							#inlineRadio1 {
+										margin-left: 5% !important;
+										}
+
+
+							body		{
+										background-image: none;
+										background: #383838;
+										}
+
 							}

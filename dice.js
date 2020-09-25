@@ -87,9 +87,9 @@ $(".btn").click(()=>{
 	// Add css prefixes
 
 // What do i need to change to get 10 sided dice
-	// Add a toggle / selector on the HTML file
+	// Add a toggle / selector on the HTML file - done
 	// Need to capture selector setting and update a variable with 6 or 10
 	// Update logic with 2 paths based on the variable:
 		// need to roll 0-9
-		// New images for 0-9
+		// New images for 0-9 - done
 
