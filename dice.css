@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .heading-col	{color:				rebeccapurple;}
 	
 .btn			{background-color: 	rebeccapurple;
@@ -7,26 +14,38 @@
 .dice			{
 				max-width: 			150px;
 				border-radius: 		30px;
-				border: 			10px solid rgba(255, 255, 255, .7);   		
+				border: 			10px solid rgba(255, 255, 255, .9);
 				}
 
 .card			{border:			none;
 				background: 		none;
 				}
 
-body			{background-image: url("img/catground01.jpg");
+body			{
+				background-image: url("img/catground01.jpg");
+				background-repeat: repeat-x;
+				}
+				
+
+.diceRoll		{-webkit-animation-name: roll;animation-name: roll;
+    			-webkit-animation-duration: 0.5s;
+    			        animation-duration: 0.5s;
+    			-webkit-animation-iteration-count: 1;
+    			        animation-iteration-count: 1;
+    			-webkit-animation-fill-mode: forwards;
+    			        animation-fill-mode: forwards;
+    			-webkit-animation-timing-function: ease-out;
+    			        animation-timing-function: ease-out;
 				}
 
-.diceRoll		{animation-name: roll;
-    			animation-duration: 0.5s;
-    			animation-iteration-count: 1;
-    			animation-fill-mode: forwards;
-    			animation-timing-function: ease-out;
-				}
+ @-webkit-keyframes roll {
+    
+	    100% 	{-webkit-transform: rotate(2turn);transform: rotate(2turn);}
+ 				}
 
  @keyframes roll {
     
-	    100% 	{transform: rotate(2turn);}
+	    100% 	{-webkit-transform: rotate(2turn);transform: rotate(2turn);}
  				}
 
 @media (max-width: 600px) {
@@ -43,7 +62,7 @@ body			{background-image: url("img/catground01.jpg");
 							.dice 		{
 										max-width: 			100px;
 										border-radius: 		20px;
-										border: 			6px solid rgba(255, 255, 255, .7);
+										border: 			6px solid rgba(255, 255, 255, .9);
 										}
 
 							.card 		{
