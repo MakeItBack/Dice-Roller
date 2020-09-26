@@ -23,7 +23,8 @@
 
 body			{
 				background-image: url("img/catground01.jpg");
-				background-repeat: repeat-x;
+				/*background-repeat: repeat-x;*/
+				background-size: cover;
 				}
 				
 

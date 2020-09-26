@@ -101,5 +101,4 @@ $(".btn").click(()=>{
 	// Can't press roll button without selecting number of dice first
 	// Background image toggler
 	// Re-factor!!
-	// work on scaling the background image better at different screen sizes - see Mac / retina
 
