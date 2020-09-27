@@ -13,5 +13,11 @@ Built using Bootstrap and jQuery
 
 ___
 
+### Updates
+- Improved mobile layout
+- Added option to choose d10 dice (10 faces)<br>
+
+___
+
 ### License
 This project is licensed under the terms of the BSD 3-clause "New" or "Revised" license.<br>
