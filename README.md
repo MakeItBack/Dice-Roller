@@ -1,4 +1,4 @@
-# Dice Roller
+# Dice Roller<img align="right" alt="purple 10 sided dice" height="120" src="img/d10/d10_dice.png">
 
 <details>
 <summary>Table of content</summary>
