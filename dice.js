@@ -104,6 +104,6 @@ $(".btn").click(() => {
 
 // UPGRADES - ideas
 // Can't press roll button without selecting number of dice first
-// Re-write the CSS file in SCSS (SASS)? For practice
+// Re-write the CSS file in SCSS (SASS) For practice?
 // Background image toggler
 // Re-factor!!
